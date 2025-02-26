@@ -1,0 +1,104 @@
+.footer {
+  background: black;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+
+    p {
+      font-size: 0.9rem;
+      color: gray;
+    }
+
+    .square-icons {
+      display: flex;
+      gap: 5px;
+      margin-top: 10px;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        background-color: #FF4D01;
+      }
+    }
+  }
+
+  .footer-menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 400px;
+
+    .menu-column {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      h4 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+
+        &:hover {
+          color: #FF4D01;
+        }
+      }
+    }
+  }
+
+  .contact-section {
+    min-width: 250px;
+
+    h4 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    .contact-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #FF4D01;
+      padding: 10px;
+      margin-top: 10px;
+      gap: 10px;
+
+      .icon {
+        width: 30px;
+        height: 30px;
+        background-color: #FF4D01;
+      }
+
+      .contact-info {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: gray;
+
+    a {
+      color: #FF4D01;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

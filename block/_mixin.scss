@@ -1,0 +1,63 @@
+@mixin button_orange($a, $b) {
+  width: $a;
+  height: $b;
+  border: 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff4d01;
+  border-radius: 0px;
+  transition: 0.3s all ease;
+  &:hover {
+    width: $a + 5px;
+    height: $b + 5px;
+    background: transparent;
+    color: black;
+    border: 2px solid #000;
+    border-radius: 1px;
+  }
+}
+@mixin button_black($a, $b) {
+  width: $a;
+  height: $b;
+  border: 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 1px;
+  border-radius: 0px;
+  transition: 0.3s all ease;
+  &:hover {
+    width: $a + 5px;
+    height: $b + 5px;
+    border: 0;
+    color: #ffffff;
+    background: #ff4d01;
+  }
+}
+@mixin h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #191919;
+}
+@mixin p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #605e5d;
+}

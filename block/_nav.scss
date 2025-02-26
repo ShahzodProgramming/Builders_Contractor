@@ -1,0 +1,17 @@
+@import "./mixin";
+nav {
+  position: absolute;
+  margin-left: 70%;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  button {
+    @include button_orange(130px, 50px);
+  }
+}

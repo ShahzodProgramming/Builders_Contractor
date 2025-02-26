@@ -1,0 +1,97 @@
+.about__wrapper {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  p:first-child {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #ff4d01;
+  }
+  h1 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #191919;
+  }
+  .content .box .box_inside h2 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 84px;
+    text-align: center;
+    color: #191919;
+  }
+  .box {
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+  }
+  .content button {
+    @include button_black(230px, 70px);
+  }
+}
+
+.our_service__wrapper {
+  .intro {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .content:nth-child(2) {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .btn:nth-child(1) {
+        @include button_orange(100px, 50px);
+      }
+      .btn:nth-child(2) {
+        @include button_black(100px, 50px);
+      }
+    }
+  }
+  .boxes {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    .box {
+      width: 370px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h3 {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 48px;
+        color: #191919;
+      }
+      i {
+        font-size: 30px;
+      }
+      p {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #605e5d;
+      }
+    }
+  }
+}

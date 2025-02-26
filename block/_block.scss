@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Barlow";
+  list-style: none;
+}
+@import "./mixin";
+@import "./nav";
+@import "./intro";
+@import "./about";
+@import "./random";
+@import "./footer";
